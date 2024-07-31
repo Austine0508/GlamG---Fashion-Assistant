@@ -8,7 +8,7 @@ from PIL import Image, ImageTk
 import threading
 
 # genai setup
-genai.configure(api_key="AIzaSyDgx4wjN9aknjKXeD_QHARdYdhx5ANX3w4")
+genai.configure(api_key="Insert Your API key")
 generation_config = {
     "temperature": 0.1,
     "top_p": 0.95,
